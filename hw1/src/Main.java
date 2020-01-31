@@ -29,7 +29,7 @@ public class Main {
                 new Wall(400),
                 new Treadmill(600)
         };
-        for ( Partaker c:partakers ) {  // не очень понял работу этого фора. что дает ""
+        for ( Partaker c:partakers ) {  // не очень понял работу этого фора. что дает "с"
             for (Obstacle o:obstacles ) {
                 o.doIt(c);
                 if(!c.isDistance()){
