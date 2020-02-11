@@ -1,0 +1,15 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<GridPane fx:id="Panel" fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+
+    <Label                      GridPane.columnIndex="1" GridPane.rowIndex="0" />
+    <TextArea fx:id="TextOverall"         GridPane.columnIndex="1" GridPane.rowIndex="0" GridPane.vgrow="ALWAYS" editable="false"/>
+    <TextArea fx:id="TextPersonal"        GridPane.columnIndex="1" GridPane.rowIndex="1" prefHeight="70" prefWidth="30" />
+    <Button text="Отправить"    GridPane.columnIndex="1" GridPane.rowIndex="2" onAction="#btn1Click"/>
+    <Label                      GridPane.columnIndex="2"/>
+</GridPane>
